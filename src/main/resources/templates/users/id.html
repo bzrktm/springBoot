@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>User</title>
+</head>
+<body>
+<p th:text="'id: ' + ${user.getId()}">VALUE</p>
+<p th:text="'Name:' + ${user.getName()}">VALUE</p>
+<p th:text="'Last Name: ' + ${user.getLastName()}">VALUE</p>
+<p th:text="'Age: ' + ${user.getAge()}">VALUE</p>
+<input type="button" value="Go back" onclick="location.href='/users'">
+</body>
+</html>
